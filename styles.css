@@ -7,13 +7,18 @@
   padding: 0;
 }
 
-body {
+html,body {
   font-size: 16px;
   font-family: Arial, sans-serif;
   line-height: 1.5;
   margin: 0;
   padding: 0;
-}
+} 
+
+
+
+
+
 
 /* Responsive design */
 .container {
@@ -27,7 +32,7 @@ body{
   width: 100%;
   height: 100vh;
   overflow-x: hidden;
-}
+} 
 
 
 
@@ -489,28 +494,16 @@ iframe {
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
 }
 
+
+/* Font Setting for body :) */ 
+
 :root {
-  --header-height: 3rem;
-  --font-semi: 600;
-  /*===== Colores =====*/
-  /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
-  /* HSL color mode */
-  --hue-color: 147;
-  --first-color: hsl(var(--hue-color), 50%, 47%);
-  --second-color: hsl(var(--hue-color), 56%, 12%);
+ 
   --body-font: "Poppins", sans-serif;
-  --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: .938rem;
   --smaller-font-size: .75rem;
-  /*===== Margin =====*/
-  --mb-2: 1rem;
-  --mb-4: 2rem;
-  --mb-5: 2.5rem;
-  --mb-6: 3rem;
-  /*===== z index =====*/
-  --z-back: -10;
-  --z-fixed: 100;
+  
 }
 
 
@@ -600,6 +593,7 @@ border-radius: 0.5rem;
   75%{ left: 0px;top: 0px;}
 }
 
+
 .icon-container {
   display: flex;
   justify-content: center;
@@ -609,7 +603,7 @@ border-radius: 0.5rem;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-}
+} 
 
 .icon {
   width: 100px; /* adjust icon size */
@@ -619,10 +613,6 @@ border-radius: 0.5rem;
   animation: fadeInSlide 2s forwards;
 }
 
-.icon-container:hover {
-  /* optional hover effect */
-  transform: scale(0.9) translateY(-5px);
-  }
 
   .icon-container-text1{
   top: 80%;
@@ -689,7 +679,7 @@ border-radius: 0.5rem;
   text-align: center;
   text-transform: uppercase;
   
-  }
+  } 
 /* Animation */
 .icon {
   animation: fadeInSlide 2s forwards;
@@ -1346,13 +1336,16 @@ background-color: #2f332f; /* Light Black */
 color: #fff; /* White text */
 border: none; /* Remove default border */
 padding: 10px 20px; /* Button size */
-font-size: 16px; /* Font size */
+font-size: 15px; /* Font size */
 cursor: pointer; /* Pointer cursor */
 border-radius: 5px; /* Rounded corners */
 transition: background-color 0.3s ease; /* Smooth transition */
 position: absolute;
 left: 70%;
 transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+font-family:sans-serif;
+font-weight: 500;
+  text-decoration: none;
 }
 
 .resume-button:hover {
@@ -1363,6 +1356,22 @@ box-shadow: 0  0 25px#3caf19;}
 .resume-button:active {
 background-color: #9fef00; /* Darker green on click */
 }
+
+.resume-button img{
+  position: relative;
+  left: -9px;
+  vertical-align: middle; 
+                        
+  visibility: hidden;
+  transition: visibility 0.3s;
+
+}
+
+.resume-button:hover  img {
+visibility: visible; 
+}
+
+
 
 .eda{
 display: flex;
