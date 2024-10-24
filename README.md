@@ -25,6 +25,10 @@ This is a basic HTML/CSS portfolio page created as part of a freshman challenge 
 
 [![Technologies Used](https://skillicons.dev/icons?i=html,css,)](https://skillicons.dev)
 
+### Note
+
+Since this is non responsive page If you're using a big monitor or Display scaling ...View it on **150%**[Laptop View].
+
 ### Challenge Requirements
 
 This project was created to fulfill the requirements of the MACFAST College  portfolio challenge, which included:
