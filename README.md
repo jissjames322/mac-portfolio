@@ -19,6 +19,8 @@ This is a basic HTML/CSS portfolio page created as part of a freshman challenge 
     - Text animation
     - Button styling
 - iframe integration for location display
+- #9fef00 (Hack the box) theme.
+- ![#9fef00](https://placehold.co/15x15/9fef00/9fef00.png) `#9fef00`
 
 
 ## Technologies Used
