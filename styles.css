@@ -69,6 +69,7 @@ nav a{
       border-radius: 40%;
       margin: 3rem 1.5rem 3rem 0;
       transition: 0.3s ease;
+      transition: transform 0.5s;
       color: #edf5eb;
   }
   
@@ -80,8 +81,8 @@ nav a:hover {
   
   color: rgb(4, 4, 4);
   transform: scale(1.0) translateY(-5px);
-  background-color: #e3eaeb;
-  box-shadow: 0  0 25px #9fef00;
+  background-color: #9fef00;
+  box-shadow: 0  0 25px #9fef00; 
 }
 @media(max-width:995px){
   nav{
@@ -106,6 +107,7 @@ nav a:hover {
       display: block;
       font-size: 2rem;
       margin: 3rem 0;
+      
   }
 
   nav a:hover,
@@ -169,6 +171,7 @@ a:hover {
   font-size: 24px;
   color: #333;
   transition: color 0.2s ease;
+  transition: transform 0.5s;
 }
 
 .social-icons a:hover{
@@ -280,6 +283,8 @@ main {
   border-radius: 5px;
   cursor: pointer;
   overflow: hidden;
+  transition: transform 0.5s;
+
 }
 
 .enter-portfolio:hover {
@@ -1135,6 +1140,7 @@ border: none;
 border-radius: 5px;
 cursor: pointer;
 text-decoration: none;
+
 }
 
 .github-button:hover {
@@ -1312,6 +1318,8 @@ border-radius: 40%;
 margin: 20px;
 transition: 0.3s ease;
 color: #edf5eb;
+transition: transform 0.5s;
+
 }
 
 
@@ -1321,6 +1329,8 @@ transform: scale(1.0) translateY(-5px);
 background-color: #fff8f8;
 box-shadow: 0  0 30px #ffffff;
 justify-content: center;
+transition: transform 0.5s;
+
 
 }
 
@@ -1346,12 +1356,15 @@ transform: translate(-50%, -50%); /* Center both horizontally and vertically */
 font-family:sans-serif;
 font-weight: 500;
   text-decoration: none;
+  
 }
 
 .resume-button:hover {
 background-color:#9fef00;
 color: rgb(4, 4, 4);
-box-shadow: 0  0 25px#3caf19;}
+box-shadow: 0  0 25px#3caf19;
+transition: transform 0.5s;
+}
 
 .resume-button:active {
 background-color: #9fef00; /* Darker green on click */
@@ -1488,5 +1501,108 @@ color: #d6d4d2;
   z-index: -1;
 }
 
+/* Extra Education Page */
+
+.educationpage {
+ 
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  color: #0e0d0d;
+  background-color: rgb(24, 24, 24);
+}
+
+.educationsection{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ 
+/* Education Gallery */
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery-item{
+  position: relative;
+  width: 30%;
+  margin: 10px;
+  transition: transform 0.5s;
+}
+.gallery-item:hover{
+  transform: scale(1.1);
+}
+.gallery-item img {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.5s;
+  border-radius: 10px;
+}
+
+.gallery-item:hover .gallery-overlay {
+  opacity: 1;
+  
+}
+
+.gallery-overlay h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #9fef00;
+}
+.gallery-overlay p {
+  font-size: 14px;
+}
+
+    
 
 
+/* How about  some animation ? hmmmmm!!! */
+
+
+.educationmain{
+  padding: 100px 0;
+
+}
+
+.educationfooter{
+  text-align: center;
+  background-color: #212020;
+  color: #000000;
+  padding-top: 20px;
+  padding-bottom: 6px;
+  position: relative;
+ left: 0;
+ bottom: -8;
+ width: 100%;
+}
+
+
+/* Footer Font Additional */
+
+footer p{
+  font-family: 'consolas';
+  font-weight: 400;
+}
+
+.nav__link{
+  font-family: 'consolas';
+  font-weight: 400;}
