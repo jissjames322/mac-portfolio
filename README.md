@@ -14,6 +14,8 @@ This is a basic HTML/CSS portfolio page created as part of a freshman challenge 
     - Projects
     - Skills
     - Contact Me
+    - Education
+    - Interests
 - Styling using CSS, including:
     - Fade animation
     - Text animation
