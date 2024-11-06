@@ -1572,6 +1572,19 @@ color: #d6d4d2;
   font-size: 14px;
 }
 
+.gallery-overlay a:hover{
+  cursor: pointer;
+ 
+}
+
+.highlight:hover{
+  color: #9fef00;
+
+}
+
+
+
+
     
 
 
