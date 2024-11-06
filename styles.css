@@ -1619,3 +1619,25 @@ footer p{
 .nav__link{
   font-family: 'consolas';
   font-weight: 400;}
+
+
+  /* Some Cool Text Focus Animation  */
+.testing{
+  background-color: black;
+}
+  .focus{
+    animation: 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s 1 normal both running focusin;
+    color: white;
+  }
+
+  @keyframes focusin {
+    0%{
+      letter-spacing: -.5em;
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100%{
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
