@@ -42,7 +42,7 @@ This project was created to fulfill the requirements of the MACFAST College  por
 
 #### Something from my side 😊:
 
-`"Hey if you are trying to learn then try it for yourself,you can use this repo to update your skills or knowledge...everyone fails at first but slowly you adapt what you have tried,so keep going dude or dudeyy ! you are gonna figure this out 😉"`
+`"Hey if you are trying to learn then try it for yourself,you can use this repo to update your skills or knowledge...everyone fails at first but slowly you adapt what you have tried,so keep going dude or dudeyy ! you're gonna figure this out 😉"`
 
 
 ## Demo
