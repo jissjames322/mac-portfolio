@@ -611,9 +611,9 @@ border-radius: 0.5rem;
 } 
 
 .icon {
-  width: 100px; /* adjust icon size */
+  width: 100px; /* this is the  icon size */
   margin: 20px;
-  opacity: 0; /* initial opacity */
+  opacity: 0; /* starting opacity */
   transition: opacity 1s, transform 1s; /* animation duration */
   animation: fadeInSlide 2s forwards;
 }
@@ -878,6 +878,7 @@ align-items: center;
       width: 100%;
   }
 }
+
 
 @media (max-width: 480px){
   .aboutpart{
